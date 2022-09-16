@@ -25,7 +25,7 @@ class PairStringList<E> extends AbstractList {
         boolean modified = false;
         int ex = 0;
         for (Object e : c) {
-            System.out.println(e + " / ");
+            //System.out.println(e + " / ");
             add(index+ex, e);
             ex+=2;
             modified = true;
