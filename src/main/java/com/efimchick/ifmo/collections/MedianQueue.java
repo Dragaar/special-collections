@@ -1,5 +1,9 @@
 package com.efimchick.ifmo.collections;
 
-class MedianQueue  {
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+
+class MedianQueue extends LinkedList {
+
 
 }
